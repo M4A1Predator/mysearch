@@ -1,0 +1,10 @@
+pipeline:
+  batch:
+    delay: 50
+    size: 125
+xpack:
+  monitoring:
+    elasticsearch:
+      hosts:
+      - http://es01:9200
+    enabled: true
